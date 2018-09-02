@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     
+     <meta charset ="utf-8">
+     
+   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+-->
+    <title>Drawing App</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet"
+href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.
+4/themes/start/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="drawingstyle.css">
+
+    </head>
+    <body>
+        <div id="header">Drawing app</div>
+        
+        <div class="inputContainer">
+        <div class="input" id="colorInput">
+            <input type="color" list id="paintColor">
+            
+            </div>
+            <div class="input" id="thicknessInput">
+                <div id="circle">
+                </div>
+            </div>
+            <div class="input">
+ <div id="slider"></div>
+ </div>
+ </div>
+       <div id="container">
+           <canvas id="paint" width="500px" height="400px"></canvas>
+        </div>
+       <div class="inputContainer2">
+        <div class="input2">
+            <span id="erase" class="button">Erase</span>
+           
+           </div>
+           <div class="input2">
+            <span id="save" class="button">Save</span>
+           
+           </div>
+           <div class="input2">
+            <span id="reset" class="button">Reset</span>
+           
+           </div>
+        </div> 
+     <script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/j
+query.min.js"></script>
+ <script
+src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4
+/jquery-ui.min.js"></script>
+        
+        <script src="drawingjs.js">
+        </script>
+         <footer class="footer" id="foot">
+                <div>
+                <p>tussipandey Copyright &copy; 2018-2020</p>
+                </div>
+            </footer>
+    </body>
+</html>
